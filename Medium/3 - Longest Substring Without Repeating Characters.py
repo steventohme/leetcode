@@ -1,4 +1,5 @@
-# N
+# Naive Solution
+
 
 # Optimal Solution
 def lengthOfLongestSubstring(self, s: str) -> int: 
