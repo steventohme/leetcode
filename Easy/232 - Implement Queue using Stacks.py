@@ -18,4 +18,4 @@ class MyQueue:
         return self.out_stack[-1]
 
     def empty(self) -> bool:
-        return len(self.in_stack) == 0 and len(self.out_stack) == 0
+        return not len(self.in_stack) and len(self.out_stack) == 0
