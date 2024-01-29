@@ -6,7 +6,7 @@ def twoSumNaive(nums, target):
             if i != j and nums[i] + nums[j] == target:
                 return [i, j]
 
-def twoSum(self, nums: list[int], target: int) -> list[int]:
+def twoSum(nums: list[int], target: int) -> list[int]:
     pass
 
 if __name__ == "__main__":
