@@ -1,5 +1,5 @@
 from collections import defaultdict
-# O
+# O(n) time and O(space complexity
 def findTheDifference(s: str, t: str) -> str:
     chars_s = defaultdict(int)
     for i in s:
