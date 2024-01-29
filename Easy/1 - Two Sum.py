@@ -1,4 +1,4 @@
-# Naive Solution 
+# Naive Solution O(n^2) 
 def twoSumNaive(nums: list[int], target: int) -> list[int]:
     for i in range(len(nums)):
         for j in range(len(nums)):
