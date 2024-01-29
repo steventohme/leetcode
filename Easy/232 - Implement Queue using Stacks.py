@@ -13,4 +13,4 @@ class MyQueue:
         pass
 
     def empty(self) -> bool:
-        return  len(self.in_)
+        return len(self.in_)
