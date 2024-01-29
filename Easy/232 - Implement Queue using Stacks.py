@@ -5,7 +5,7 @@ class MyQueue:
         self.out_stack = []
 
     def push(self, x: int) -> None:
-        s
+        self.in_stack.append(x)
 
     def pop(self) -> int:
         pass
