@@ -11,4 +11,4 @@ def findTheDifference(s: str, t: str) -> str:
     for k in chars_t:
         if chars_s[k] != chars_t[k]:
             return k
-        
+    
