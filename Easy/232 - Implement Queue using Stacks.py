@@ -8,7 +8,8 @@ class MyQueue:
         self.in_stack.append(x)
 
     def pop(self) -> int:
-        pass
+        self.peek()
+        
     def peek(self) -> int:
         if not self.out_stack:
             while self.in_stack:
