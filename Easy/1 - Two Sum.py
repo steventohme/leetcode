@@ -18,3 +18,4 @@ def twoSum(nums: list[int], target: int) -> list[int]:
 
 if __name__ == "__main__":
     print(twoSumNaive([2, 7, 11, 15], 9))
+    print(twoSumNaive([3, 2, 4], 6))
