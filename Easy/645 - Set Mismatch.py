@@ -7,6 +7,8 @@ def findErrorNums(self, nums: list[int]) -> list[int]:
 
     missing = expectedSum - uniqueSum
     duplicate = expectedSum - arraySum
-    
+
+
+    return ()
         
     
