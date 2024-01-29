@@ -1,7 +1,7 @@
 from collections import defaultdict
-def findTheDifference( s: str, t: str) -> str:
+def findTheDifference(s: str, t: str) -> str:
     chars_s = defaultdict(int)
     for i in s:
         chars_s[i] += 1
     
-    c
+    chars_t = defaultdict(int)
