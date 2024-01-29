@@ -1,6 +1,6 @@
 # Naive Solution
 
-def twoSumNaive(self, nums: List[int], target: int):
+def twoSumNaive(nums, targe):
     pass
 
 def twoSum(self, nums: List[int], target: int) -> List[int]:
