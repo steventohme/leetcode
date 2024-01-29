@@ -5,5 +5,5 @@ def findErrorNums(self, nums: list[int]) -> list[int]:
     arraySum = sum(nums)
 
     for i in nums:
-        seen.add()
+        seen.add(i)
         
