@@ -10,7 +10,9 @@ class MyQueue:
     def pop(self) -> int:
         pass
     def peek(self) -> int:
-        pass
+        if not self.out_stack:
+            while self.in_stack:
+                self.push()
 
     def empty(self) -> bool:
         return len(self.in_stack) == 0 and len(self.out_stack) == 0
