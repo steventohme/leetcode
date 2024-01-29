@@ -6,7 +6,7 @@ class ListNode:
 def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
     
     res = ListNode()
-    # pointer to 
+    # pointer to end of l
     curr = res
 
     carry = 0
