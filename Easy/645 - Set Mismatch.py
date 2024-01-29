@@ -1,4 +1,4 @@
-# O(n) time and O(1) space complexity
+# O(n) time and O(n) space complexity
 def findErrorNums(nums: list[int]) -> list[int]:
     n = len(nums)
     expectedSum = (n * (n + 1)) // 2
