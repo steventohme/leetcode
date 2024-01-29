@@ -9,7 +9,7 @@ class MyQueue:
 
     def pop(self) -> int:
         self.peek()
-        
+        self.out_stack.pop()
     def peek(self) -> int:
         if not self.out_stack:
             while self.in_stack:
