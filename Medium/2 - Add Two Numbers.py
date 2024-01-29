@@ -6,6 +6,7 @@ class ListNode:
 def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
     
     res = ListNode()
+    # 
     curr = res
 
     carry = 0
