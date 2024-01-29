@@ -6,6 +6,7 @@ def twoSumNaive(nums: list[int], target: int) -> list[int]:
             if i != j and nums[i] + nums[j] == target:
                 return [i, j]
 
+# Optimal Solution
 def twoSum(nums: list[int], target: int) -> list[int]:
     compliments = {}
 
