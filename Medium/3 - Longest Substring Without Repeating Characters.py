@@ -1,5 +1,4 @@
-# Naive Solution
-
+# Naive Solution O(n^2) time complexity, O(1) space complexity
 def lengthOfLongestSubstringNaive(s: str) -> int:
     longest = 0
     for i in range(len(s)):
@@ -12,7 +11,7 @@ def lengthOfLongestSubstringNaive(s: str) -> int:
         longest = max(longest, len(chars))
     return longest
 
-# Optimal Solution
+# Optimal Solution O
 def lengthOfLongestSubstring(s: str) -> int: 
     longest = 0
     l = 0
