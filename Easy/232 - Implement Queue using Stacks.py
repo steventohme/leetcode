@@ -13,4 +13,4 @@ class MyQueue:
         pass
 
     def empty(self) -> bool:
-        return len(self.in_stack) == 0 and len(self.peek)
+        return len(self.in_stack) == 0 and len(self.out_stack) == 0
