@@ -8,6 +8,7 @@ def lengthOfLongestSubstring(self, s: str) -> int:
             chars.remove(s[r])
             l += r
         
-        chars.add(s)
+        chars.add(s[r])
+        
 
     return longest
