@@ -1,4 +1,4 @@
-def findErrorNums(self, nums: list[int]) -> list[int]:
+def findErrorNums(nums: list[int]) -> list[int]:
     n = len(nums)
     expectedSum = (n * (n + 1)) // 2
     
@@ -6,9 +6,10 @@ def findErrorNums(self, nums: list[int]) -> list[int]:
     uniqueSum = sum(set(nums))
 
     missing = expectedSum - uniqueSum
-    duplicate = expectedSum - arraySum
+    duplicate = arraySum - uniqueSum
 
 
     return [missing, duplicate]
         
     
+print(findErrorNums([1,2,2,4]))
