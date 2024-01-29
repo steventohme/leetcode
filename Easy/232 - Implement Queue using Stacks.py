@@ -12,7 +12,7 @@ class MyQueue:
     def peek(self) -> int:
         if not self.out_stack:
             while self.in_stack:
-                self.push()
+                self.out_sta
 
     def empty(self) -> bool:
         return len(self.in_stack) == 0 and len(self.out_stack) == 0
