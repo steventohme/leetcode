@@ -24,3 +24,6 @@ def addTwoNumbers( l1: ListNode, l2: ListNode) -> ListNode:
 
     
     return dummy.next
+
+if __name__ == "__main__":
+    print(addTwoNumbers())
