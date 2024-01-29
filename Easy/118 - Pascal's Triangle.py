@@ -1,4 +1,4 @@
-# 
+# O()
 def generate(numRows: int) -> list[list[int]]:
     if numRows == 0:
         return []
