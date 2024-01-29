@@ -5,8 +5,8 @@ class ListNode:
 
 def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
     
-    dummy = ListNode()
-    curr = dummy
+    res = ListNode()
+    curr = res
 
     carry = 0
 
@@ -24,4 +24,4 @@ def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
         l2 = l2.next if l2 else None
 
     
-    return dummy.next
+    return res.next
