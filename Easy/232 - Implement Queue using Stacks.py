@@ -1,7 +1,7 @@
 class MyQueue:
 
     def __init__(self):
-        pass
+        self.in_stack = []
     def push(self, x: int) -> None:
         pass
 
