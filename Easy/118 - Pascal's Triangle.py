@@ -1,4 +1,4 @@
-# O(n^2) time and space complexit
+# O(n^2) time and space complexity
 def generate(numRows: int) -> list[list[int]]:
     if numRows == 0:
         return []
