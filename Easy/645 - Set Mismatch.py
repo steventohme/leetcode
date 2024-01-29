@@ -1,2 +1,3 @@
 def findErrorNums(self, nums: list[int]) -> list[int]:
-    expectedSu, = len(nums)
+    n = len(nums)
+    expectedSum = (n * (n + 1)) / 2
