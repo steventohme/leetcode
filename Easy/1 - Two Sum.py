@@ -7,7 +7,11 @@ def twoSumNaive(nums: list[int], target: int) -> list[int]:
                 return [i, j]
 
 def twoSum(nums: list[int], target: int) -> list[int]:
-    pass
+    compliments = {}
+
+    for i in range(len(nums)):
+        compliment = target - nums[i]
+        
 
 if __name__ == "__main__":
     print(twoSumNaive([2, 7, 11, 15], 9))
