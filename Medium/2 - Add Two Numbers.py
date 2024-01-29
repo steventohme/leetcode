@@ -23,4 +23,4 @@ def addTwoNumbers( l1: ListNode, l2: ListNode) -> ListNode:
         l2 = l2.next if l2 else None
 
     
-    return 
+    return dummy.next
