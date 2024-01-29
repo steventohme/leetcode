@@ -3,7 +3,7 @@ class ListNode:
         self.val = val
         self.next = next
 
-def addTwoNumbers( l1: ListNode, l2: ListNode) -> ListNode:
+def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
     dummy = ListNode()
     curr = dummy
 
