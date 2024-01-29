@@ -19,4 +19,8 @@ def addTwoNumbers( l1: ListNode, l2: ListNode) -> ListNode:
         val = val % 10
         curr.next = ListNode(val)
 
-        l1 
+        l1 = l1.next if l1 else None
+        l2 = l2.next if l2 else None
+
+    
+    return 
