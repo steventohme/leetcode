@@ -12,4 +12,3 @@ def findErrorNums(nums: list[int]) -> list[int]:
     return [missing, duplicate]
         
     
-print(findErrorNums([1,2,2,4]))
