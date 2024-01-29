@@ -1,4 +1,5 @@
 # Naive Solution
+
 def lengthOfLongestSubstringNaive(s: str) -> int:
     longest = 0
     for i in range(len(s)):
