@@ -3,9 +3,9 @@ class MyQueue:
     def __init__(self):
         self.in_stack = []
         self.out_stack = []
-        
+
     def push(self, x: int) -> None:
-        pass
+        s
 
     def pop(self) -> int:
         pass
