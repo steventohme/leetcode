@@ -1,2 +1,2 @@
-def findErrorNums(self, nums: List[int]) -> List[int]:
+def findErrorNums(self, nums: list[int]) -> list[int]:
     pass
