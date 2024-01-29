@@ -15,7 +15,7 @@ class MyQueue:
         if not self.out_stack:
             while self.in_stack:
                 self.out_stack.append(self.in_stack.pop())
-        return self.in_stack[-1]
+        return self.out_stack[-1]
 
     def empty(self) -> bool:
         return len(self.in_stack) == 0 and len(self.out_stack) == 0
