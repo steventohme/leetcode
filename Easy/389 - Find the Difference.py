@@ -1,4 +1,5 @@
 from collections import defaultdict
+# O
 def findTheDifference(s: str, t: str) -> str:
     chars_s = defaultdict(int)
     for i in s:
