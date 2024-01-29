@@ -1,5 +1,5 @@
 # Naive Solution
-def lengthOfLongestSubstring(self, s: str) -> int:
+def lengthOfLongestSubstringNaive(self, s: str) -> int:
     longest = 0
     for i in range(len(s)):
         chars = set()
