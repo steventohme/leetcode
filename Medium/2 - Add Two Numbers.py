@@ -3,7 +3,7 @@ class ListNode:
         self.val = val
         self.next = next
 
-# O(n)
+# O(n) time and space complexity
 def addTwoNumbers(l1: ListNode, l2: ListNode) -> ListNode:
     
     res = ListNode()
