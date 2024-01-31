@@ -8,3 +8,5 @@ def dailyTemperatures(self, temperatures: list[int]) -> list[int]:
             res[j] = i - j
         
         stack.append(i)
+    
+    return res
