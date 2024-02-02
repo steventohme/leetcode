@@ -7,10 +7,9 @@ def sequentialDigits(self, low: int, high: int) -> list[int]:
 
     while size < 9:
         currentNum = int(maximum[start: start + size])
-        if  currentNum > low and currentNum < high:
+        if currentNum > low and currentNum < high:
             res.append(currentNum)
         
         if start == 9:
             size += 1
             start = 0
-            
