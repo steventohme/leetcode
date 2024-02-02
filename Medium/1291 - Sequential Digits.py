@@ -8,4 +8,4 @@ def sequentialDigits(self, low: int, high: int) -> list[int]:
                 res.append(int(maximum[l:r]))
     
 
-    return r
+    return re
