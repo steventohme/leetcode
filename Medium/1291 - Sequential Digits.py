@@ -1,2 +1,4 @@
 def sequentialDigits(self, low: int, high: int) -> list[int]:
-    pass
+    maximum = "123456789"
+
+    
