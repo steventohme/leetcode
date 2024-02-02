@@ -5,9 +5,9 @@ def sequentialDigits(low: int, high: int) -> list[int]:
     start = 0
     size = 1
 
-    while size < 9:
+    while size <= 9:
         currentNum = int(maximum[start: start + size])
-        if currentNum > low and currentNum < high:
+        if currentNum >= low and currentNum <= high:
             res.append(currentNum)
         
         if start + size == len(maximum):
