@@ -1,4 +1,4 @@
-# O(1) t
+# O(1) time complexity O
 def sequentialDigits(low: int, high: int) -> list[int]:
     maximum = "123456789"
     res = []
