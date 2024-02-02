@@ -13,4 +13,4 @@ def sequentialDigits(self, low: int, high: int) -> list[int]:
         if start == 9:
             size += 1
             start = 0
-        
+            
