@@ -16,3 +16,5 @@ def sequentialDigits(self, low: int, high: int) -> list[int]:
             continue
 
         start += 1
+    
+    return res
