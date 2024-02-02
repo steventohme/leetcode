@@ -15,4 +15,4 @@ def sequentialDigits(self, low: int, high: int) -> list[int]:
             start = 0
             continue
 
-        
+        start += 1
