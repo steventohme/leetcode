@@ -5,4 +5,7 @@ def sequentialDigits(self, low: int, high: int) -> list[int]:
     for l in range(9):
         for r in range(9):
             if maximum[l:r] > low and maximum[l:r] < high:
-                res.append(int())
+                res.append(int(maximum[l:r]))
+    
+
+    retu
