@@ -10,6 +10,6 @@ def sequentialDigits(self, low: int, high: int) -> list[int]:
         if currentNum > low and currentNum < high:
             res.append(currentNum)
         
-        if start == 9:
+        if start :
             size += 1
             start = 0
