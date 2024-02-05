@@ -21,4 +21,4 @@ def reverseVowels(s: str) -> str:
         elif not isVowel(string_list[r]):
             r -= 1
     
-    return ''
+    return ''.join(string_list)
