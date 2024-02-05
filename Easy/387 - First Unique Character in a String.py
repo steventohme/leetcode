@@ -8,4 +8,4 @@ def firstUniqChar(s: str) -> int:
         if counts[s[i]] == 1:
             return i
         
-    return 
+    return -1
