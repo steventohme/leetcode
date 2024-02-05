@@ -7,5 +7,6 @@ def canPlaceFlowers(flowerbed: list[int], n: int) -> bool:
             flowerbed[i] = 1
             n -=1
             if n == 0:
-                return False
+                return True
     
+    return False
