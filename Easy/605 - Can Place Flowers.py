@@ -1,4 +1,4 @@
-# O(n) time complex and O(1) space complexity
+# O(n) time complexity and O(1) space complexity
 def canPlaceFlowers(flowerbed: list[int], n: int) -> bool:
     if n == 0:
         return True
