@@ -1,5 +1,5 @@
 import collections
-# O
+# O(n) 
 def firstUniqChar(s: str) -> int:
     counts = collections.Counter(s)
 
