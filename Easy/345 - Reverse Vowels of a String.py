@@ -1,2 +1,4 @@
 def reverseVowels(s: str) -> str:
-    pass
+    def isVowel(char:str) ->bool:
+        if char in "aeiouAEIOU":
+            ret
