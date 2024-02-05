@@ -1,2 +1,2 @@
 def firstUniqChar(s: str) -> int:
-    pass
+    counts = collections.Counter
