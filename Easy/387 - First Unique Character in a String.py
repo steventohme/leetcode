@@ -1,5 +1,5 @@
 import collections
-# O(n) time complexity and O(1) space complexi
+# O(n) time complexity and O(1) space complexity
 def firstUniqChar(s: str) -> int:
     counts = collections.Counter(s)
 
