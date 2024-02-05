@@ -6,4 +6,5 @@ def reverseVowels(s: str) -> str:
         return False
     
     string_list = list(s)
-    
+
+    l,r = 0, len(string_list)
