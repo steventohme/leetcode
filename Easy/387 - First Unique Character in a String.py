@@ -7,3 +7,5 @@ def firstUniqChar(s: str) -> int:
 
         if counts[s[i]] == 1:
             return i
+        
+    ret
