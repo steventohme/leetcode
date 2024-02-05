@@ -1,4 +1,4 @@
-# O(n)
+# O(n) time and space complexity
 def mergeAlternately(word1: str, word2: str) -> str:
     n, m = len(word1), len(word2)
 
