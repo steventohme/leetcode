@@ -3,4 +3,4 @@ def kidsWithCandies(candies: list[int], extraCandies: int) -> list[bool]:
     greatest = max(candies)
 
     for i in range(len(candies)):
-        res[i] =
+        res[i] = candies + extraCandies >= greatest
