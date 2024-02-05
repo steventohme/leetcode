@@ -5,4 +5,5 @@ def reverseVowels(s: str) -> str:
         
         return False
     
-    string_l
+    string_list = list(s)
+    
