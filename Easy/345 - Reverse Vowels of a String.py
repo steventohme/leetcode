@@ -1,4 +1,4 @@
-# O(n) time and spa
+# O(n) time and space
 def reverseVowels(s: str) -> str:
     def isVowel(char:str) ->bool:
         if char in "aeiouAEIOU":
