@@ -1,2 +1,2 @@
 def minPartitions( n: str) -> int:
-    return
+    return int(max())
