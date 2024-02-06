@@ -6,3 +6,5 @@ def groupAnagrams(strs: list[str]) -> list[list[str]]:
         if key in word_list:
             word_list[key].append(i)
         
+        else:
+            word_list[key] = [i]
