@@ -4,4 +4,5 @@ def groupAnagrams(strs: list[str]) -> list[list[str]]:
         key = str(sorted(i))
 
         if key in word_list:
-            word_list[key].
+            word_list[key].append(i)
+        
