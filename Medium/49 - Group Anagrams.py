@@ -8,3 +8,5 @@ def groupAnagrams(strs: list[str]) -> list[list[str]]:
         
         else:
             word_list[key] = [i]
+    
+    return word_list.values()
