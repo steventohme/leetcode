@@ -1,4 +1,4 @@
-# O(n) time complexity ()
+# O(n) time complexity (each str is 100 char or less) 
 def groupAnagrams(strs: list[str]) -> list[list[str]]:
     word_list = {}
     for i in range(strs):
