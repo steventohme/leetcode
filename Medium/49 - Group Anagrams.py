@@ -1,2 +1,2 @@
 def groupAnagrams(strs: list[str]) -> list[list[str]]:
-    pass
+    word_list = {}
