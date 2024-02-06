@@ -1,2 +1,2 @@
-def minPartitions( n: str) -> int:
-    return int(max())
+def minPartitions(n: str) -> int:
+    return int(max(n))
