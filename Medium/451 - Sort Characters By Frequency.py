@@ -6,7 +6,7 @@ def frequencySort(s: str) -> str:
 
     
     res = []
-    for k,v in count:
+    for k,v in count.most_common():
         res += [k] * v
     
     return ''.join(res)
