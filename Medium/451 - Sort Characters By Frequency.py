@@ -2,4 +2,7 @@ import collections
 
 def frequencySort(s: str) -> str:
     count = collections.defaultdict(int)
-    for 
+    for char in s:
+        count[char] += 1
+    
+    
