@@ -1,7 +1,7 @@
 import collections
 
-# O(nlogn) time complexity and O9n
- def frequencySort(s: str) -> str:
+# O(nlogn) time complexity and O(n)
+def frequencySort(s: str) -> str:
     count = collections.defaultdict(int)
     for char in s:
         count[char] += 1
