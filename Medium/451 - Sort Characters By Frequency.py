@@ -6,7 +6,7 @@ def frequencySort(s: str) -> str:
 
     
     res = []
-    for k,v in sorted(count.items(), key = lambda x: -x[1]):
+    for k,v in count:
         res += [k] * v
     
     return ''.join(res)
