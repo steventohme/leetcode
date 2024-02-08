@@ -1,4 +1,4 @@
-# 
+# O(log n)
 def myPow(x: float, n: int) -> float:
     if n == 0:
         return 1
