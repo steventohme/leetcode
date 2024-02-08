@@ -1,3 +1,4 @@
+f
 class Point:
     def __init__(self, point):
         self.point = point
@@ -7,7 +8,7 @@ class Point:
         return self.distance < other.distance
     
 
-def kClosest(points: list[list[int]], k: int) -> list[Llist[int]]:
+def kClosest(points: list[list[int]], k: int) -> list[list[int]]:
         point_objects = []
         
         for point in points:
