@@ -7,3 +7,16 @@ class Point:
         return self.distance < other.distance
     
 
+def kClosest(points: l[List[int]], k: int) -> List[List[int]]:
+        point_objects = []
+        
+        for point in points:
+            point_objects.append(Point(point))
+        
+        heapq.heapify(point_objects)
+
+        res = []
+        for _ in range(k):
+            res.append(heapq.heappop(point_objects).point)
+        
+        return res
