@@ -9,15 +9,15 @@ class Point:
     
 
 def kClosest(points: list[list[int]], k: int) -> list[list[int]]:
-        point_objects = []
-        
-        for point in points:
-            point_objects.append(Point(point))
-        
-        heapq.heapify(point_objects)
+    point_objects = []
+    
+    for point in points:
+        point_objects.append(Point(point))
+    
+    heapq.heapify(point_objects)
 
-        res = []
-        for _ in range(k):
-            res.append(heapq.heappop(point_objects).point)
-        
-        return res
+    res = []
+    for _ in range(k):
+        res.append(heapq.heappop(point_objects).point)
+    
+    return res
