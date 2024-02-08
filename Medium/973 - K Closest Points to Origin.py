@@ -7,7 +7,7 @@ class Point:
         return self.distance < other.distance
     
 
-def kClosest(points: list[list[int]], k: int) -> list[List[int]]:
+def kClosest(points: list[list[int]], k: int) -> list[Llist[int]]:
         point_objects = []
         
         for point in points:
