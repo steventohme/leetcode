@@ -1,0 +1,1 @@
+def numSquares(self, n: int) -> int:
