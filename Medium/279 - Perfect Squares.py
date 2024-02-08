@@ -1,3 +1,4 @@
+
 def numSquares(n: int) -> int:
     def solve(n):
         if n == 0:
