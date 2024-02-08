@@ -1,4 +1,4 @@
-# O(log n)
+# O(log n) time and space complexity
 def myPow(x: float, n: int) -> float:
     if n == 0:
         return 1
