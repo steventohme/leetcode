@@ -1,4 +1,4 @@
-f
+from collections import heapq
 class Point:
     def __init__(self, point):
         self.point = point
