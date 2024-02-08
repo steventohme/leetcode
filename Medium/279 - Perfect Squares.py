@@ -21,3 +21,4 @@ def numSquares(n: int) -> int:
     
     memo = [-1] * (n + 1)
     return solve(n)
+
