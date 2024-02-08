@@ -1,4 +1,4 @@
-def topKFrequent(self, nums: list[int], k: int) -> list[int]:
+def topKFrequent(nums: list[int], k: int) -> list[int]:
         frequency_dict = {}
         for i in nums:
             if i in frequency_dict:
