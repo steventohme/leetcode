@@ -1,3 +1,4 @@
+#O(n^2) time complexity and O(1) space complexity
 def countSubstrings(s: str) -> int:
         n, ans = len(s), 0
 
