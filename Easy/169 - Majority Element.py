@@ -1,4 +1,4 @@
-def majorityElement( nums: List[int]) -> int:
+def majorityElement(nums: list[int]) -> int:
     count = 0
     candidate = None
 
