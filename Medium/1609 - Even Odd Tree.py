@@ -1,4 +1,4 @@
-def isEvenOddTree(self, root: Optional[TreeNode]) -> bool:
+def isEvenOddTree(root) -> bool:
     q = deque([root])
     even = True
 
