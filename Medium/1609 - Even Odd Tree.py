@@ -1,3 +1,5 @@
+from collections import deque
+
 def isEvenOddTree(root) -> bool:
     q = deque([root])
     even = True
