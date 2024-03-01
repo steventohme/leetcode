@@ -1,3 +1,5 @@
+import heapq
+
 def reorderLogFiles(logs: list[str]) -> list[str]:
     letterLogs = []
 
