@@ -1,4 +1,4 @@
-def reorderLogFiles(logs: l[str]) -> List[str]:
+def reorderLogFiles(logs: list[str]) -> list[str]:
     letterLogs = []
 
     digitLogs = []
