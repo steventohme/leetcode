@@ -1,4 +1,6 @@
-def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+
+
+def kthSmallest(root: Optional[TreeNode], k: int) -> int:
         res = []
 
         def inOrder(node):
