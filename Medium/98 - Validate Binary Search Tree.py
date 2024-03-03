@@ -4,7 +4,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
-    def isValidBST(self, root: Optional[TreeNode]) -> bool:
+    def isValidBST(root: Tree) -> bool:
         def valid(node, left, right):
             if not node:
                 return True
