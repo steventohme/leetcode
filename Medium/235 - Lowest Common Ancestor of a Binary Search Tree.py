@@ -3,8 +3,8 @@ class TreeNode:
         self.val = x
         self.left = None
         self.right = None
-        
-    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+
+def lowestCommonAncestor( root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
         curr = root
 
         while curr:
