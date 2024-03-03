@@ -4,7 +4,7 @@ class TreeNode:
         self.left = left
         self.right = right
 
-def kthSmallest(root: Optional[TreeNode], k: int) -> int:
+def kthSmallest(root: TreeNode, k: int) -> int:
         res = []
 
         def inOrder(node):
