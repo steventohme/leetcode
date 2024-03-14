@@ -4,7 +4,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
-def lowestCommonAncestor( root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
+def lowestCommonAncestor(root: TreeNode, p: TreeNode, q: TreeNode) -> TreeNode:
         curr = root
 
         while curr:
